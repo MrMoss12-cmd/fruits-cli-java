@@ -26,6 +26,7 @@ Clona este repositorio desde GitHub a tu máquina local:
 ```bash
 git clone https://github.com/tu-usuario/fruits-cli.git
 cd fruits-cli
+```
 
 ### 3.  Compilar y Ejecutar
 
@@ -33,6 +34,7 @@ Compila y ejecuta el proyecto utilizando Maven:
 
 ```bash
 ./mvnw spring-boot:run
+```
 
 O desde tu IDE favorito, ejecuta la clase principal FruitsCliApplication.
 
@@ -45,6 +47,7 @@ Una vez iniciada la aplicación, interactúa con el menú en la consola:
 1. Salúdame
 2. Salir
 Seleccione una opción:
+```
 
 1: Ingresa tu nombre y recibe un saludo personalizado.
 2: Sal del programa.
@@ -57,6 +60,7 @@ Seleccione una opción:
 
 ```bash
 menuService.registrarOpcion(3, "Juegos");
+```
 
 ### 📜 Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
